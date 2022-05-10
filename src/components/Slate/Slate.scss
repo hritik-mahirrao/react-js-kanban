@@ -1,0 +1,19 @@
+.slate {
+  background-color: #ebecf0;
+  border-radius: 3px;
+  padding: 15px;
+
+  flex: 1 0 200px;
+
+  @media screen and (max-width: 425px) {
+    flex: 1 0 100%;
+  }
+
+  .title {
+    margin-top: 0px;
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+}

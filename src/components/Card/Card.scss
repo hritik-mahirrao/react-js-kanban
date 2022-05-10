@@ -1,0 +1,18 @@
+.card {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 #091e4240;
+
+  padding: 10px;
+  min-height: 50px;
+
+  cursor: grab;
+
+  &:active:hover {
+    cursor: grabbing;
+  }
+
+  .remove-task-button {
+    cursor: pointer;
+  }
+}
